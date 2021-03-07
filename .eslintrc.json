@@ -17,7 +17,8 @@
         "sourceType": "module"
     },
     "plugins": [
-        "babel"
+        "babel",
+        "react"
     ],
     "rules": {
         "no-unused-vars": [
