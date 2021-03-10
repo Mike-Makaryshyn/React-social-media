@@ -1,8 +1,10 @@
 import React from 'react';
+import './post-add-form.css';
 
-const PostAddForm = () => {
+
+const PostAddForm = ({ onAdd }) => {
    return (
-      <form className="button-panel d-flex">
+      <div className="bottom-panel d-flex">
          <input
             type="text"
             placeholder="О чем вы думаете сейчас"
@@ -10,9 +12,10 @@ const PostAddForm = () => {
          />
          <button
             type="sumbit"
-            className="btn btn-outline-secondary">
+            className="btn btn-outline-secondary"
+            onClick={() => onAdd('Hello')}>
             Добавить</button>
-      </form>
+      </div>
    );
 };
 
