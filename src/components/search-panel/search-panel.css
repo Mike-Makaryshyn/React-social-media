@@ -7,3 +7,14 @@
   flex-grow: 1;
   margin-right: 3px;
 }
+
+
+.btn-outline-info:focus {
+  color: #fff;
+  background-color: #17a2b8;
+}
+
+.btn-outline-secondary:focus {
+  color: #fff;
+  background-color: #6c757d;
+}
